@@ -1,0 +1,17 @@
+
+.add{
+    margin-top: 20px;
+    margin-left: 150px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 2px;
+    width: 100px;
+    font-size: 22px;
+    color: black;
+    background-color: rgb(197, 133, 117);
+    text-decoration: none;
+}
+
+table{
+    margin-top: 20px;
+}

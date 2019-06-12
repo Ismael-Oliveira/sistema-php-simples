@@ -7,6 +7,8 @@
 
 ?>
 
+<link " rel="stylesheet" href="./assets/css/style.css">
+<a class="add" href="./assets/php/adicionar.php">Adicionar Usuário</a>
 <table border="1" width="80%" align="center">
     <tr>
         <th>Nome</th>    
@@ -23,7 +25,7 @@
                         echo "<td>".$value['nome']."</td>";
                         echo "<td>".$value['email']."</td>";
                         echo '<td><a href="./assets/php/editar.php?id='.$value['id'].'">Editar</a>
-                                --<a href="./assets/php/deletar.php?id='.$value['id'].'">Deletar</a></td>';
+                                -- <a href="./assets/php/deletar.php?id='.$value['id'].'">Deletar</a></td>';
                     echo "</tr>";
                 }
 
