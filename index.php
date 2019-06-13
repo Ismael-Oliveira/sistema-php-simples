@@ -13,6 +13,7 @@
     <h3>Utilizador: <?php echo $_SESSION['nome']?></h3><a href="assets/php/sair.php">-- SAIR</a>
 </div>
 <a class="add" href="./assets/php/adicionar.php">Adicionar Usuário</a>
+<a class="add" href="./assets/php/add_arquivos.php">Adicionar Arquivos</a>
 <table border="1" width="80%" align="center">
     <tr>
         <th>Nome</th>    
