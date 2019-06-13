@@ -28,13 +28,13 @@
 <h2>Formulário</h2>
 <form method="post">
     <label for="nome">Nome</label>
-    <input type="text" name="nome" id="nome-form" ><br><br>
+    <input type="text" name="nome" size="50" id="nome-form" ><br><br>
 
     <label for="nome">Email</label>
-    <input type="email" name="email" id="email-form"><br><br>
+    <input type="email" name="email" size="50" id="email-form"><br><br>
     
     <label for="senha">Senha</label>
-    <input type="password" name="senha" id="senha-form"><br><br>
+    <input type="password" name="senha" size="50" id="senha-form"><br><br>
     
     <input type="submit" value="Cadastrar">
     <a href="../../index.php">Voltar</a>
