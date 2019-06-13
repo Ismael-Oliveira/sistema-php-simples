@@ -37,4 +37,5 @@
     <input type="password" name="senha" id="senha-form"><br><br>
     
     <input type="submit" value="Cadastrar">
+    <a href="../../index.php">Voltar</a>
 </form>
